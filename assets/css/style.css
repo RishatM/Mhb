@@ -3569,6 +3569,8 @@ a:focus {
   height: calc(100% - 120px);
   background-position: center center;
   background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .service-one__bg:before {
   content: "";
