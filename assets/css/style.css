@@ -73,7 +73,7 @@ a:focus {
 }
 .block-title__title {
   margin: 0;
-  font-size: 44px;
+  font-size: 35px;
   color: #333333;
   font-weight: bold;
   margin-top: -13px;
@@ -134,8 +134,7 @@ a:focus {
   vertical-align: middle;
   text-align: center;
   text-transform: uppercase;
-  font-size: 14px;
-  padding: 13px 34.5px;
+  padding: 8px 20px;
   font-weight: bold;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
@@ -582,7 +581,7 @@ a:focus {
 }
 .header-navigation ul.navigation-box > li {
   position: relative;
-  padding: 42px 0;
+  padding: 25px 0;
   display: inline-block;
   vertical-align: middle;
   /* Second Level Menu */
@@ -3251,9 +3250,10 @@ a:focus {
 }
 .team-one__single {
   margin-bottom: 40px;
+  width: 95%;
   text-align: center;
-  -webkit-transition: all 0.4s ease;
-  transition: all 0.4s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 .team-one__image {
   overflow: hidden;
@@ -3263,18 +3263,18 @@ a:focus {
   width: 100%;
   -webkit-transform: scale(1);
   transform: scale(1);
-  -webkit-transition: -webkit-transform 0.4s ease;
-  transition: -webkit-transform 0.4s ease;
-  transition: transform 0.4s ease;
-  transition: transform 0.4s ease, -webkit-transform 0.4s ease;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
 }
 .team-one__image-hover {
   position: absolute;
   top: 0;
   left: 0;
-  right: 0;
+  right: -1px;
   bottom: -1px;
-  background-color: #fff;
+  background-color: white;
   text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3292,11 +3292,11 @@ a:focus {
   opacity: 0;
   -webkit-transform: perspective(100px) translateZ(10px);
   transform: perspective(100px) translateZ(10px);
-  -webkit-transition: opacity 0.4s ease, -webkit-transform 0.4s ease;
-  transition: opacity 0.4s ease, -webkit-transform 0.4s ease;
-  transition: opacity 0.4s ease, transform 0.4s ease;
-  transition: opacity 0.4s ease, transform 0.4s ease,
-    -webkit-transform 0.4s ease;
+  -webkit-transition: opacity 0.3s ease, -webkit-transform 0.3s ease;
+  transition: opacity 0.3s ease, -webkit-transform 0.3s ease;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  transition: opacity 0.3s ease, transform 0.3s ease,
+    -webkit-transform 0.3s ease;
 }
 .team-one__name {
   margin: 0;
@@ -3579,7 +3579,7 @@ a:focus {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #e0a965;
+  background-color: #73777a;
   opacity: 0.8;
 }
 .service-one .inner-container {
@@ -3598,8 +3598,8 @@ a:focus {
   }
 }
 .service-one__single {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 45px;
+  padding-bottom: 45px;
   text-align: center;
 }
 .service-one__single:hover .service-one__icon {
@@ -3612,7 +3612,7 @@ a:focus {
 }
 .service-one__icon {
   color: #666666;
-  font-size: 85px;
+  font-size: 55px;
   display: block;
   margin-bottom: 30px;
   -webkit-transition: all 0.4s ease;
@@ -3620,7 +3620,7 @@ a:focus {
 }
 .service-one__title {
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: bold;
   margin: 0;
   color: #333333;
@@ -4190,7 +4190,7 @@ a:focus {
   margin-right: 30px;
 }
 .case-two__box-icon i {
-  font-size: 55px;
+  font-size: 45px;
   color: #e0a965;
 }
 .case-two__box-title {
