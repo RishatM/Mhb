@@ -854,7 +854,7 @@ a:focus {
 }
 
 .topbar-one {
-  padding: 22px 0;
+  padding: 12px 0;
   border-bottom: 1px solid rgba(238, 238, 238, 0.15);
 }
 .topbar-one .container {
@@ -1046,7 +1046,7 @@ a:focus {
   transition: all 0.4s ease;
 }
 .header-phone span {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   margin-left: 10px;
   letter-spacing: 0.025em;
