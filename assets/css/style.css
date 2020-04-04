@@ -32,6 +32,10 @@
 /*
 * 1. common style
 */
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
 body {
   font-family: "Oxygen";
   font-size: 16px;
@@ -73,7 +77,7 @@ a:focus {
 }
 .block-title__title {
   margin: 0;
-  font-size: 35px;
+  font-size: 30px;
   color: #333333;
   font-weight: bold;
   margin-top: -13px;
@@ -134,7 +138,7 @@ a:focus {
   vertical-align: middle;
   text-align: center;
   text-transform: uppercase;
-  padding: 8px 20px;
+  padding: 8px 18px;
   font-weight: bold;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
@@ -581,7 +585,7 @@ a:focus {
 }
 .header-navigation ul.navigation-box > li {
   position: relative;
-  padding: 25px 0;
+  padding: 20px 0;
   display: inline-block;
   vertical-align: middle;
   /* Second Level Menu */
@@ -1046,7 +1050,7 @@ a:focus {
   transition: all 0.4s ease;
 }
 .header-phone span {
-  font-size: 18px;
+  font-size: 17px;
   font-weight: bold;
   margin-left: 10px;
   letter-spacing: 0.025em;
@@ -1347,7 +1351,7 @@ a:focus {
 .slider-one__title {
   margin: 0;
   color: #fff;
-  font-size: 56px;
+  font-size: 50px;
   font-weight: bold;
   margin-top: 15px;
   margin-bottom: 20px;
