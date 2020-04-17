@@ -32,6 +32,9 @@
 /*
 * 1. common style
 */
+/* html {
+  scroll-behavior: smooth;
+} */
 .container {
   padding-left: 20px;
   padding-right: 20px;
@@ -50,6 +53,10 @@ h4,
 h5,
 h6 {
   font-family: "Oxygen";
+}
+.hero-font {
+  font-size: 40px !important;
+  margin-bottom: 25px !important;
 }
 
 a,
@@ -80,7 +87,7 @@ a:focus {
   font-size: 30px;
   color: #333333;
   font-weight: bold;
-  margin-top: -13px;
+  /* margin-top: -13px; */
 }
 @media (max-width: 480px) {
   .block-title__title {
@@ -524,7 +531,6 @@ a:focus {
   border: none;
   border-radius: 0;
   padding: 0;
-  padding-top: 15px;
   position: relative;
   background-color: transparent;
 }
@@ -1079,7 +1085,7 @@ a:focus {
 
 .site-header__header-one-wrapper {
   position: absolute;
-  top: 0;
+  top: 18px;
   left: 0;
   width: 100%;
   z-index: 99;
@@ -1351,7 +1357,7 @@ a:focus {
   font-size: 50px;
   font-weight: bold;
   margin-top: 15px;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   -webkit-animation-duration: 0.5s;
   animation-duration: 0.5s;
   -webkit-animation-fill-mode: both;
@@ -1447,7 +1453,7 @@ a:focus {
 }
 .slider-one .owl-theme .owl-dots {
   position: absolute;
-  bottom: -15px;
+  bottom: 35px;
   right: 70px;
   width: 100%;
   text-align: right;
@@ -2879,6 +2885,8 @@ a:focus {
   background-attachment: fixed;
   background-blend-mode: overlay;
   position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .testimonials-two__single {
   display: -webkit-box;
@@ -5562,32 +5570,6 @@ a:focus {
   padding-bottom: 38.5px;
   background-color: #13161d;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
-}
-.site-footer__bottom .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-@media (max-width: 767px) {
-  .site-footer__bottom .container {
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    text-align: center;
-  }
 }
 
 .footer-widget {
