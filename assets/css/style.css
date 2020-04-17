@@ -1,5 +1,5 @@
 /***************************************************************************************************************
-||||||||||||||||||||||||||||       MASTER STYLESHEET FOR OPKLIM               ||||||||||||||||||||||||||||||||||
+||||||||||||||||||||||||||||       MASTER STYLESHEET FOR MHB               ||||||||||||||||||||||||||||||||||
 ****************************************************************************************************************
 ||||||||||||||||||||||||||||              TABLE OF CONTENT                  ||||||||||||||||||||||||||||||||||||
 ****************************************************************************************************************
@@ -524,6 +524,7 @@ a:focus {
   border: none;
   border-radius: 0;
   padding: 0;
+  padding-top: 15px;
   position: relative;
   background-color: transparent;
 }
@@ -1017,11 +1018,6 @@ a:focus {
     right: 15px;
   }
 }
-@media (min-width: 1200px) {
-  .site-header__header-one .main-navigation {
-    padding-right: 565px;
-  }
-}
 
 .header-phone {
   font-size: 14px;
@@ -1342,6 +1338,7 @@ a:focus {
 /*
 * 4. slider style
 */
+
 .slider-one {
   position: relative;
 }
@@ -1480,8 +1477,10 @@ a:focus {
   margin: 0;
   border-radius: 0px;
   background-color: transparent;
-  width: 150px;
-  height: 90px;
+  width: 35px;
+  height: 25px;
+  /* width: 150px;
+  height: 90px; */
   background-size: cover;
   background-repeat: no-repeat;
   -webkit-transition: all 0.4s ease;
