@@ -4224,7 +4224,7 @@ a:focus {
   font-size: 14px;
   color: #aaaaaa;
   font-weight: 300;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 .case-two__box-link {
   display: inline-block;
@@ -6261,4 +6261,14 @@ a:focus {
 .sidebar__tags-list a:hover {
   color: #e0a965;
   border-color: #e0a965;
+}
+
+.logoImg {
+  height: 2em;
+  width: 6em;
+}
+
+.MHBAdvisorsPic {
+  height: 30em;
+  width: 50em;
 }
