@@ -5787,7 +5787,6 @@ a:focus {
 }
 
 .MHBAdvisorsPic {
-<<<<<<< HEAD
   height: 320px;
   width: 35em;
   /* height: 100%;
@@ -5796,11 +5795,3 @@ a:focus {
   top: 71px;  
   right: 55%;
 }
-=======
-  height: 30em;
-  width: 50em;
-  object-fit: contain;
-}
-
-html { scroll-behavior: smooth; }
->>>>>>> 13bb4ffc417e8b4dade913d947b2d691fe36b311
