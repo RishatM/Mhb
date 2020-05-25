@@ -5786,3 +5786,5 @@ a:focus {
   width: 50em;
   object-fit: contain;
 }
+
+html { scroll-behavior: smooth; }
