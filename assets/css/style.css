@@ -5787,4 +5787,11 @@ a:focus {
   object-fit: contain;
 }
 
+#names {
+  display: flex;
+}
+#names.space-between {  
+  justify-content: space-between;
+}
+
 html { scroll-behavior: smooth; }
