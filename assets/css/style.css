@@ -32,8 +32,12 @@
 /*
 * 1. common style
 */
-html {
+/* html {
   scroll-behavior: smooth;
+} */
+
+.my-relative{
+  position: relative !important;
 }
 
 /* Let's get this party started */
@@ -58,7 +62,7 @@ html {
 	background: rgba(255,0,0,0.4); 
 }
 .hero{
-  height: 99vh; 
+  height: 95vh; 
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -4235,7 +4239,7 @@ a:focus {
 * 13. fact style
 */
 .fact-one {
-  padding-top: 80px;
+  padding-top: 150px;
   padding-bottom: 0px;
   background-color: white;
   background-image: url(../images/background/fact-bg-1-1.jpg);
@@ -4294,12 +4298,6 @@ a:focus {
 }
 .fact-one__image {
   margin-bottom: 60px;
-}
-.fact-one__image img{
-  width: 100%;
-    height: 100%;
-    object-fit: cover;
-    overflow: hidden;
 }
 @media (min-width: 992px) {
   .fact-one__image {
@@ -4754,7 +4752,7 @@ a:focus {
 }
 .feature-one__icon i {
   color: #e0a965;
-  font-size: 40px;
+  font-size: 20px;
 }
 .feature-one__title {
   margin: 0;
@@ -4787,7 +4785,16 @@ a:focus {
     padding-bottom: 100px;
   }
 }
-
+.progress-one__wrapper:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #353535;
+  opacity: 0.5;
+}
 .progress-one__content {
   position: relative;
   z-index: 10;
@@ -5781,7 +5788,9 @@ a:focus {
 
 .MHBAdvisorsPic {
   height: 320px;
-  width: 571px;
+  width: 35em;
+  /* height: 100%;
+  width: 100%;   */
   position: absolute;
   top: 71px;  
   right: 55%;
@@ -5795,6 +5804,5 @@ a:focus {
   justify-content: space-between;
 }
 
-*/
 
 html { scroll-behavior: smooth; }
