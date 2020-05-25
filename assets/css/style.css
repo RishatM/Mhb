@@ -4752,7 +4752,7 @@ a:focus {
 }
 .feature-one__icon i {
   color: #e0a965;
-  font-size: 20px;
+  font-size: 25px;
 }
 .feature-one__title {
   margin: 0;
@@ -5806,3 +5806,16 @@ a:focus {
 
 */
 html { scroll-behavior: smooth; }
+
+.handshakeIcon i {
+  color: #e0a965;
+  font-size: 20px;
+  margin-right: 24px
+}
+
+.experienceIcon i {
+  color: #e0a965;
+  font-size: 28px;
+  margin-left: 4px;
+  margin-right: 27px
+}
