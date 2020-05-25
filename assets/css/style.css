@@ -4239,7 +4239,7 @@ a:focus {
 * 13. fact style
 */
 .fact-one {
-  padding-top: 150px;
+  padding-top: 80px;
   padding-bottom: 0px;
   background-color: white;
   background-image: url(../images/background/fact-bg-1-1.jpg);
@@ -4298,6 +4298,12 @@ a:focus {
 }
 .fact-one__image {
   margin-bottom: 60px;
+}
+.fact-one__image img{
+  width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
 }
 @media (min-width: 992px) {
   .fact-one__image {
@@ -5788,9 +5794,7 @@ a:focus {
 
 .MHBAdvisorsPic {
   height: 320px;
-  width: 35em;
-  /* height: 100%;
-  width: 100%;   */
+  width: 571px;
   position: absolute;
   top: 71px;  
   right: 55%;
