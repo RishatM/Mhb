@@ -36,6 +36,10 @@
   scroll-behavior: smooth;
 } */
 
+.my-relative{
+  position: relative !important;
+}
+
 /* Let's get this party started */
 ::-webkit-scrollbar {
     width: 12px;
@@ -1613,7 +1617,8 @@ a:focus {
 * 5. about style
 */
 .about-one {
-  padding: 100px 0;
+  padding: 80px 0px 53px 0px;
+  position: relative;
 }
 .about-one__text {
   margin: 0;
@@ -4758,7 +4763,7 @@ a:focus {
 }
 .feature-one__text {
   margin: 0;
-  color: #aaaaaa;
+  color: #e6e2e2;
   font-size: 14px;
   font-weight: 300;
   line-height: 24px;
@@ -5782,7 +5787,11 @@ a:focus {
 }
 
 .MHBAdvisorsPic {
-  height: 30em;
-  width: 50em;
-  object-fit: contain;
+  height: 320px;
+  width: 35em;
+  /* height: 100%;
+  width: 100%;   */
+  position: absolute;
+  top: 71px;  
+  right: 55%;
 }
