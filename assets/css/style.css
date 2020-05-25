@@ -32,12 +32,8 @@
 /*
 * 1. common style
 */
-/* html {
+html {
   scroll-behavior: smooth;
-} */
-
-.my-relative{
-  position: relative !important;
 }
 
 /* Let's get this party started */
@@ -62,7 +58,7 @@
 	background: rgba(255,0,0,0.4); 
 }
 .hero{
-  height: 95vh; 
+  height: 99vh; 
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -4791,16 +4787,7 @@ a:focus {
     padding-bottom: 100px;
   }
 }
-.progress-one__wrapper:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: #353535;
-  opacity: 0.5;
-}
+
 .progress-one__content {
   position: relative;
   z-index: 10;
