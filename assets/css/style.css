@@ -5819,3 +5819,8 @@ html { scroll-behavior: smooth; }
   margin-left: 4px;
   margin-right: 27px
 }
+
+.services-list-block {
+  background-color: rgba(255, 166, 0, 0.822);
+  
+}
