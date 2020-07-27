@@ -5794,6 +5794,7 @@ a:focus {
   position: absolute;
   top: 71px;  
   right: 55%;
+  padding-left: 25px;
 }
 
 /* gotta figure out how to fix the layout
@@ -5818,4 +5819,8 @@ html { scroll-behavior: smooth; }
   font-size: 28px;
   margin-left: 4px;
   margin-right: 27px
+}
+
+.custom-padding {
+  padding-top: 60px;
 }
