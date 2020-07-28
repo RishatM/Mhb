@@ -5827,14 +5827,20 @@ html { scroll-behavior: smooth; }
 
 .mhb_venndiagram {
   display: block;
+  position: relative;
   height:auto;
   width: 50%;
   margin-left: 40%;
   margin-right: auto;
+  z-index: 2;
 }
 
-.clients-section {
-  background-color: rgb(2, 2, 2);
+.clients-section-1 {
+  background-color: rgb(34, 34, 34);
+}
+
+.clients-section-2 {
+  background-color: white;
 }
 
 .clients-list-item {
