@@ -4271,7 +4271,6 @@ a:focus {
 .fact-one__list li > i {
   font-size: 16px;
   font-weight: bold;
-  color: #e0a965;
   position: absolute;
   top: 40px;
   left: 35px;
@@ -4807,12 +4806,25 @@ a:focus {
 }
 .progress-one__block-title {
   margin: 0;
+  background-color: orange;
   color: #ffffff;
   font-size: 40px;
   font-weight: bold;
   text-align: center;
   margin-top: 45px;
+  padding: 20px;
 }
+
+.progress-one__block-title-firm {
+  margin: 0;
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 45px;
+  padding: 20px;
+}
+
 @media (max-width: 375px) {
   .progress-one__block-title {
     margin-top: 15px;
@@ -5820,7 +5832,6 @@ html { scroll-behavior: smooth; }
   margin-right: 27px
 }
 
-.services-list-block {
-  background-color: rgb(248, 172, 9);
-  
+.services-vertical-centering-div {
+  margin-top: 165px;
 }
