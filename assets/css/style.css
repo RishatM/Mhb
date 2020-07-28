@@ -5824,3 +5824,13 @@ html { scroll-behavior: smooth; }
 .custom-padding {
   padding-top: 60px;
 }
+
+.mhb_venndiagram {
+  height: 300px;
+  width: 300px;
+  margin-left: auto;
+}
+
+.clients-section {
+  background-color: rgb(0, 0, 0);
+}
