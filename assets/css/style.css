@@ -5829,8 +5829,8 @@ html { scroll-behavior: smooth; }
 }
 
 .exp_number {
-  font-size: 24px;
-  font-weight: bold;
+  font-size: 30px;
+  font-weight: bolder;
   color: #005288;
   margin-top: 10px;
   margin-bottom: 0px;
