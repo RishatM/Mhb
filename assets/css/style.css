@@ -4813,11 +4813,14 @@ a:focus {
 }
 .progress-one__block-title {
   margin: 0;
+  background-color: orange;
   color: #ffffff;
   font-size: 40px;
   font-weight: bold;
   text-align: center;
   margin-top: 45px;
+  padding: 20px;
+}
 }
 @media (max-width: 375px) {
   .progress-one__block-title {
