@@ -113,7 +113,7 @@ a:focus {
 
 @media (min-width: 1200px) {
   .container {
-    max-width: 1170px;
+    max-width: 1250px;
   }
 }
 .block-title {
@@ -878,7 +878,7 @@ a:focus {
 }
 
 .stricked-menu.stricky-fixed ul.navigation-box a {
-  color: #002035
+  color: #053250
 }
 
 @media (min-width: 1200px) {
@@ -1621,8 +1621,12 @@ a:focus {
 * 5. about style
 */
 .about-one {
-  padding: 80px 0px 53px 0px;
+  padding: 60px 0px 60px 0px;
   position: relative;
+}
+.about-one__content {
+  padding-top: 2em;
+  margin-left: 3em;
 }
 .about-one__text {
   margin: 0;
@@ -3698,10 +3702,10 @@ a:focus {
     margin-top: 30px;
   }
 }
-.case-two__image {
-  margin-right: 25px;  
-  position: relative;
-  z-index: 10;
+.case-two__image {  
+  position: absolute;
+  margin-left: -2em;
+  bottom: 0em;
 }
 .case-two__box {
   padding-left: 35px;
@@ -4715,14 +4719,9 @@ a:focus {
   margin: 0;
 }
 .feature-one__main .block-title__title:after {
-  content: "";
   width: 50px;
   height: 1px;
   display: block;
-  background-image: url(../images/resources/pattern-1-1.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   margin-top: 20px;
 }
 .feature-one__single {
@@ -4782,7 +4781,7 @@ a:focus {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  background-color: #353535;
+  background-color: #282d3a;
   position: relative;
 }
 @media (max-width: 1199px) {
@@ -4820,7 +4819,6 @@ a:focus {
   text-align: center;
   margin-top: 45px;
   padding: 20px;
-}
 }
 @media (max-width: 375px) {
   .progress-one__block-title {
@@ -5790,32 +5788,34 @@ a:focus {
   border-color: #e0a965;
 }
 
+
+html { scroll-behavior: smooth; }
+
 .logoImg {
   height: 1.7em;
   width: 4em;
 }
 
 .MHBAdvisorsPic {
-  height: 320px;
-  width: 35em;
-  /* height: 100%;
-  width: 100%;   */
-  position: absolute;
-  top: 71px;  
-  right: 55%;
+  height: auto;
+  width: 100%;
+}
+
+.block-title__text-firm {
+  margin: 0;
+  color: #e6e2e2;
+  font-size: 16px;
+  line-height: 1.6em;
+  font-style: italic;
+  font-weight: bold;
+  border-left: 3px solid #e2a33e;
   padding-left: 25px;
+  margin-top: 25px;
 }
 
-/* gotta figure out how to fix the layout
-#names {
-  display: flex;
+.services-vertical-centering-div {
+  margin-top: 165px;
 }
-#names.space-between {  
-  justify-content: space-between;
-}
-
-*/
-html { scroll-behavior: smooth; }
 
 .mhb_experience {
   margin-top: 10px;
@@ -5860,10 +5860,6 @@ html { scroll-behavior: smooth; }
   font-size: 28px;
   margin-left: 4px;
   margin-right: 27px
-}
-
-.custom-padding {
-  padding-top: 60px;
 }
 
 .mhb_venndiagram {
