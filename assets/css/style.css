@@ -55,11 +55,11 @@
 ::-webkit-scrollbar-thumb {
     -webkit-border-radius: 0px;
     border-radius: 0px;
-    background: rgba(255,0,0,0.8); 
+    background: rgba(167, 167, 167, 0.8); 
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
 }
 ::-webkit-scrollbar-thumb:window-inactive {
-	background: rgba(255,0,0,0.4); 
+	background: rgba(167, 167, 167, 0.8) ; 
 }
 .hero{
   height: 95vh; 
@@ -3703,9 +3703,8 @@ a:focus {
   }
 }
 .case-two__image {  
-  position: absolute;
   margin-left: -2em;
-  bottom: 0em;
+  margin-top: 3.5em;
 }
 .case-two__box {
   padding-left: 35px;
@@ -4689,7 +4688,9 @@ a:focus {
 * 15. feature style
 */
 .feature-one__wrap {
-  background-color: #282d3a;
+  padding-top: 6em;
+  padding-bottom: 6em;
+  position: relative;
 }
 .feature-one__main {
   padding-top: 102.5px;
@@ -4698,8 +4699,8 @@ a:focus {
   max-width: 535px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: 105px;
-  margin-right: auto;
+  margin-left: auto;
+  margin-right: 2em;
 }
 @media (max-width: 1199px) {
   .feature-one__main {
@@ -4778,10 +4779,9 @@ a:focus {
 * 16. progress style
 */
 .progress-one__wrapper {
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
-  background-color: #282d3a;
+  background-position: center center; */
   position: relative;
 }
 @media (max-width: 1199px) {
@@ -4790,7 +4790,7 @@ a:focus {
     padding-bottom: 100px;
   }
 }
-.progress-one__wrapper:before {
+/* .progress-one__wrapper:before {
   content: "";
   position: absolute;
   top: 0;
@@ -4799,7 +4799,7 @@ a:focus {
   left: 0;
   background-color: #353535;
   opacity: 0.5;
-}
+} */
 .progress-one__content {
   position: relative;
   z-index: 10;
@@ -5798,7 +5798,7 @@ html { scroll-behavior: smooth; }
 
 .MHBAdvisorsPic {
   height: auto;
-  width: 100%;
+  max-width: 100%;
 }
 
 .block-title__text-firm {
@@ -5811,6 +5811,14 @@ html { scroll-behavior: smooth; }
   border-left: 3px solid #e2a33e;
   padding-left: 25px;
   margin-top: 25px;
+}
+
+.ourFirmContainer {
+  background-color: #1a243d;
+}
+
+.ourFirmPadder {
+  padding-right: 10em;
 }
 
 .services-vertical-centering-div {
