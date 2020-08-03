@@ -176,7 +176,7 @@ a:focus {
   vertical-align: middle;
   font-size: 13px;
   color: #fff;
-  background-color: #e23e4e;
+  background-color: #e2d23e;
   border-radius: 2px;
   display: inline-block;
   vertical-align: middle;
@@ -4249,11 +4249,11 @@ a:focus {
 */
 .fact-one {
   padding-top: 150px;
-  padding-bottom: 0px;
-  background-color: white;
+  padding-bottom: 100px;
+  /* background-color: white;
   background-image: url(../images/background/fact-bg-1-1.jpg);
   background-position: 45% -65%;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 }
 .fact-one .block-title {
   margin-bottom: 0;
@@ -4270,7 +4270,7 @@ a:focus {
   padding-bottom: 35px;
 }
 .fact-one__list li:hover {
-  background-color: #e0a965;
+  background-color: #26355a;
 }
 .fact-one__list li:hover i,
 .fact-one__list li:hover h3,
@@ -4280,7 +4280,7 @@ a:focus {
 .fact-one__list li > i {
   font-size: 16px;
   font-weight: bold;
-  color: #e0a965;
+  color: #1a243d;
   position: absolute;
   top: 40px;
   left: 35px;
@@ -4812,7 +4812,7 @@ a:focus {
 }
 .progress-one__block-title {
   margin: 0;
-  background-color: orange;
+  background-color: #1a243d;
   color: #ffffff;
   font-size: 40px;
   font-weight: bold;
