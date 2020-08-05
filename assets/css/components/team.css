@@ -1,9 +1,30 @@
+.team-container {
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 1250px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .team-one {
   padding-bottom: 115px;
   padding-top: 100px;
 }
 .team-one .block-title {
   margin-bottom: 0;
+}
+.block-title__text-one {
+  margin: 0;
+  color: #666666;
+  font-size: 16px;
+  line-height: 1.6em;
+  font-style: italic;
+  font-weight: bold;
+  border-left: 3px solid #e0a965;
+  padding-left: 25px;
+  margin-top: 25px;
+  max-width: 35em;
 }
 @media (max-width: 480px) {
   .team-one .block-title br {
@@ -134,7 +155,7 @@
   content: "";
   width: 50px;
   height: 1px;
-  background-color: #e23e4e;
+  background-color: #e0a965;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -149,7 +170,7 @@
   margin-left: 20px;
 }
 .team-one__social a:hover {
-  color: #e23e4e;
+  color: #e0a965;
 }
 .team-one__contact {
   display: block;
@@ -164,7 +185,7 @@
   font-weight: bold;
 }
 .team-one__contact:hover {
-  color: #e23e4e;
+  color: #e0a965;
 }
 .team-one__contact + .team-one__contact {
   margin-top: 15px;
@@ -205,7 +226,6 @@
 .team-two__single {
   position: relative;
   height: auto;
-  min-height: 1200px;
   margin-bottom: 40px;
   text-align: center;
   -webkit-transition: all 0.4s ease;
@@ -282,7 +302,9 @@
 }
 
 .team-two__content {
+  position: relative;
   padding-top: 40px;
+  height: 44em;
   text-align: left;
 }
 .team-two__social {
@@ -303,7 +325,7 @@
   content: "";
   width: 50px;
   height: 1px;
-  background-color: #e23e4e;
+  background-color: #e0a965;
   display: block;
 }
 .team-two__social a {
@@ -331,7 +353,7 @@
   font-weight: bold;
 }
 .team-two__contact:hover {
-  color: #e23e4e;
+  color: #e0a965;
 }
 .team-two__contact + .team-two__contact {
   margin-top: 15px;
@@ -345,4 +367,39 @@
   opacity: 1;
   -webkit-transform: perspective(100px) translateZ(0px);
   transform: perspective(100px) translateZ(0px);
+}
+
+/*CSS for experience box. Still not responsive. I believe due 
+  to parent div not expanding to fit content correctly*/
+
+.mhb_experience {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #005288;
+}
+
+.experience_box {
+  position: absolute;
+  bottom: 0;
+  height: 13em;
+  width: 100%;
+  border: 1px solid black;
+  margin-top: 20px;
+  padding: 0em 1em 0.5em 1em;
+  text-align: center;
+}
+
+.exp_number {
+  font-size: 30px;
+  font-weight: bolder;
+  color: #005288;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.exp_text {
+  font-size: 14px;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
 }

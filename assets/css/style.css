@@ -80,29 +80,6 @@ a:focus {
   text-decoration: none;
 }
 
-@media (min-width: 1200px) {
-  .container {
-    max-width: 1250px;
-  }
-}
-
-
-.block-title__text-one {
-  margin: 0;
-  color: #666666;
-  font-size: 16px;
-  line-height: 1.6em;
-  font-style: italic;
-  font-weight: bold;
-  border-left: 3px solid #e0a965;
-  padding-left: 25px;
-  margin-top: 25px;
-  max-width: 35em;
-}
-
-
-
-
 /* Cursor Style */
 .cursor {
   position: absolute;
@@ -4122,39 +4099,7 @@ a:focus {
   margin-top: 45px;
   padding: 10px;
 }
-.mhb_experience {
-  margin-top: 10px;
-  font-size: 16px;
-  font-weight: bold;
-  color: #005288;
-}
 
-.experience_box {
-  position: absolute;
-  bottom: 0;
-  height: 180px;
-  width: 100%;
-  border: 1px solid black;
-  margin-top: 20px;
-  padding-left: 1em;
-  padding-right: 1em;
-  margin-bottom: 0px;
-  text-align: center;
-}
-
-.exp_number {
-  font-size: 30px;
-  font-weight: bolder;
-  color: #005288;
-  margin-top: 10px;
-  margin-bottom: 0px;
-}
-
-.exp_text {
-  font-size: 14px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
 
 .handshakeIcon i {
   color: #e0a965;
@@ -4193,7 +4138,3 @@ a:focus {
   margin-bottom: 10px;
 }
 
-.bio-sectioner {
-  margin-top: 5px;
-  margin-bottom: 10px;
-}
