@@ -1,4 +1,4 @@
-.hero {
+/* .hero {
   height: 98vh;
   width: 100%;
   display: flex;
@@ -10,6 +10,25 @@
   background-attachment: fixed;
   background-size: cover;
   position: relative;
+} */
+
+.my-hero{
+  position: relative;
+  height: 98vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.hero-video{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 .hero-sub-title {
@@ -23,7 +42,7 @@
   animation-fill-mode: both;
   -webkit-backface-visibility: visible !important;
   backface-visibility: visible !important;
-  position: relative;
+
   display: inline-block;
 }
 .hero-sub-title:after {
@@ -38,6 +57,7 @@
   margin-top: 5px;
 }
 .hero-title {
+
   margin: 0;
   color: #fff;
   font-size: 50px;
