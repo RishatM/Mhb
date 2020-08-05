@@ -1,0 +1,28 @@
+@import "./components/preloader.css";
+@import "./components/header.css";
+@import "./components/hero.css";
+@import "./components/about.css";
+@import "./components/our-firm.css";
+@import "./components/our-services.css";
+
+.page-wrapper {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  min-width: 300px;
+  overflow: hidden;
+}
+
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+body {
+  font-family: "Oxygen";
+  font-size: 16px;
+  line-height: 26px;
+  color: #666666;
+}
+html {
+  scroll-behavior: smooth;
+}

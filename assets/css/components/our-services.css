@@ -1,0 +1,41 @@
+.fact-one {
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+
+.services-container {
+  position: relative;
+  overflow: hidden;
+  background-image: url("../../images/background/conference-room.jpg");
+  background-position: center;
+  background-size: 100%;
+}
+
+.our-services-subtitle {
+  margin: 0;
+  color: white;
+  font-size: 16px;
+  line-height: 1.6em;
+  font-style: italic;
+  font-weight: bold;
+  border-left: 3px solid #e0a965;
+  padding-left: 25px;
+  margin-top: 25px;
+  max-width: 35em;
+}
+.services-title {
+  margin: 0;
+  font-size: 37px;
+  color: white;
+  font-weight: bold;
+}
+.services-one__block-title {
+  margin: 0;
+  background-color: #1a243d;
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 45px;
+  padding: 10px;
+}
