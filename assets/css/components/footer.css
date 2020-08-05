@@ -1,0 +1,21 @@
+.site-footer__bottom {
+  padding-top: 38.5px;
+  padding-bottom: 38.5px;
+  background-color: #13161d;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.site-footer__copy {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 300;
+  color: #aaaaaa;
+}
+@media (max-width: 767px) {
+  .site-footer__copy {
+    margin-bottom: 10px;
+  }
+}
+.site-footer__copy a {
+  color: #e0a965;
+}

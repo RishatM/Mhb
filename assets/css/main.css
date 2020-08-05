@@ -5,6 +5,11 @@
 @import "./components/our-firm.css";
 @import "./components/our-services.css";
 
+@import "./components/team.css";
+
+@import "./components/testimonials.css";
+@import "./components/contact.css";
+@import "./components/footer.css";
 .page-wrapper {
   position: relative;
   margin: 0 auto;
@@ -25,4 +30,45 @@ body {
 }
 html {
   scroll-behavior: smooth;
+}
+.block-title__title {
+  margin: 0;
+  font-size: 37px;
+  color: #333333;
+  font-weight: bold;
+  /* margin-top: -13px; */
+}
+@media (max-width: 480px) {
+  .block-title__title {
+    font-size: 35px;
+  }
+}
+
+.thm-btn {
+  border: none;
+  outline: none;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 13px;
+  color: #fff;
+  background-color: #e0a965;
+  border-radius: 2px;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 8px 18px;
+  font-weight: bold;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.thm-btn:hover {
+  background-color: #333333;
+  color: #fff;
+}
+.thm-btn i {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 16px;
+  margin-left: 5px;
 }
