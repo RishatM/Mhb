@@ -1,10 +1,47 @@
+.venndiagram-container {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 2%;
+  margin-left: auto;
+  text-align: right;
+}
+
 .mhb_venndiagram {
+    max-width: 60%;
     height: auto;
-    width: 65%;
-    margin-right: 3%;
-    margin-left: auto;
-  }
+}
 
 .clients-section-1 {
-    background-color: #1a243d;
+  padding: 4em 0 4em 0;
+  background-color: #1a243d;
 }
+
+.clients-section-2 {
+  background-color: rgb(221, 221, 221);
+  padding: 4em 0 4em 0;
+}
+
+.clients-section-title {
+  margin: 0;
+  font-size: 37px;
+  color: black;
+  font-weight: bolder;
+}
+
+.clients-section-2-content {
+  color: rgb(70, 70, 70);
+  font-size: 16px;
+  font-weight: bolder;
+  margin-top: 1%;
+  margin-left: 5%;
+  margin-right: auto;
+}
+
+.feature-one__content li {
+  margin-top: 1em;
+}
+
+.feature-one__title {
+  font-size: 24px;
+}
+
