@@ -84,6 +84,7 @@
   overflow: hidden;
   background-image: url("../../images/background/new-conference.png");
   background-position: center;
+  background-repeat: none;
   background-size: 100%;
 }
 
