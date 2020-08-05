@@ -39,26 +39,7 @@
 }
 
 /* Let's get this party started */
-::-webkit-scrollbar {
-  width: 12px;
-}
 
-/* CUSTOM SCROLLBAR */
-::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-  -webkit-border-radius: 0px;
-  border-radius: 0px;
-}
-/* Handle */
-::-webkit-scrollbar-thumb {
-  -webkit-border-radius: 0px;
-  border-radius: 0px;
-  background: rgba(167, 167, 167, 0.8);
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
-}
-::-webkit-scrollbar-thumb:window-inactive {
-  background: rgba(167, 167, 167, 0.8);
-}
 
 h1,
 h2,
@@ -182,49 +163,7 @@ a:focus {
   transform: rotate(45deg);
 }
 
-.scroll-to-top {
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  background: #292728;
-  position: fixed;
-  bottom: 40px;
-  right: 40px;
-  z-index: 990;
-  text-align: center;
-  -webkit-transition: all 0.4s ease;
-  transition: all 0.4s ease;
-  display: none;
-  border: 1px solid #393838;
-}
-@media (max-width: 480px) {
-  .scroll-to-top {
-    width: 40px;
-    height: 40px;
-  }
-}
-.scroll-to-top i {
-  font-size: 14px;
-  line-height: 50px;
-  color: #fff;
-  position: relative;
-  z-index: 10;
-  -webkit-transition: all 0.4s ease;
-  transition: all 0.4s ease;
-}
-@media (max-width: 480px) {
-  .scroll-to-top i {
-    font-size: 14px;
-    line-height: 40px;
-  }
-}
-.scroll-to-top:hover {
-  background: #e0a965;
-  border-color: #e0a965;
-}
-.scroll-to-top:hover i {
-  color: #fff;
-}
+
 
 .post-pagination {
   text-align: center;

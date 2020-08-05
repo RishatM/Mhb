@@ -1,10 +1,10 @@
 .ourFirmContainer {
   background-color: #1a243d;
-  padding: 6rem 8%;
+  padding: 6rem 0px;
 }
 
 .our-firm-left-side{
-  padding-right: 75px;
+  padding-right: 45px;
   margin-bottom: 45px;
 }
 
@@ -29,6 +29,7 @@
 .our-firm-box {
   display: flex;
   min-height: 180px;
+  margin-bottom: 25px;
 }
 .our-firm-box p {
     margin: 0;
@@ -52,6 +53,6 @@
   color: #e0a965;
   max-width: 100%;
   padding-right: 25px;
-  font-size: 20px;
+  font-size: 25px;
 }
 
