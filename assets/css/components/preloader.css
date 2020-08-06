@@ -11,7 +11,7 @@
 
 @media screen and (max-width: 600px) {
   .preloader {
-    max-width: 500px;
+    max-width: 200px;
   }
 }
 .preloader span {
