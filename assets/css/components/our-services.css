@@ -21,16 +21,18 @@
 .fact-one__list li:hover {
   background-color: #26355a;
 }
-.fact-one__list li:hover i,
 .fact-one__list li:hover h3,
 .fact-one__list li:hover p {
   color: #fff;
+}
+.fact-one__list li:hover i {
+  color: #e0a965;
 }
 .fact-one__list li > i {
   display: inline-block;
   font-size: 16px;
   font-weight: bold;
-  color: #1a243d;
+  color: #e0a965;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
@@ -49,6 +51,7 @@
 .fact-one__list--left {
   margin: 0;
   margin-top: 20px;
+  margin-right: 15px;
 }
 .fact-one__list--left li:hover {
   background-color: #26355a;
@@ -66,7 +69,7 @@
   display: inline-block;
   font-size: 16px;
   font-weight: bold;
-  color: #1a243d;
+  color: #e0a965;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
@@ -89,6 +92,10 @@
   background-position: center;
   background-repeat: none;
   background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .our-services-subtitle {

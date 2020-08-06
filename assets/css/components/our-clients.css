@@ -4,10 +4,12 @@
   margin-right: 2%;
   margin-left: auto;
   text-align: right;
+  max-width: 650px;
 }
 
 .mhb_venndiagram {
-    max-width: 60%;
+    max-width: 100%;
+    min-width: 50%;
     height: auto;
 }
 
@@ -21,6 +23,10 @@
   padding: 4em 0 4em 0;
 }
 
+.clients-title {
+  margin-bottom: 20px;
+}
+
 .clients-section-title {
   margin: 0;
   font-size: 37px;
@@ -28,10 +34,22 @@
   font-weight: bolder;
 }
 
+.our-clients-subtitle {
+  margin: 0;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  line-height: 1.6em;
+  font-style: italic;
+  font-weight: bold;
+  border-left: 3px solid #e0a965;
+  padding-left: 25px;
+  margin-top: 25px;
+  max-width: 35em;
+}
+
 .clients-section-2-content {
   color: rgb(70, 70, 70);
   font-size: 16px;
-  font-weight: bolder;
   margin-top: 1%;
   margin-left: 5%;
   margin-right: auto;
@@ -42,6 +60,7 @@
 }
 
 .feature-one__title {
-  font-size: 24px;
+  font-size: 20px;
+  font-weight: bold;
 }
 

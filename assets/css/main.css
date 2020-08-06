@@ -80,6 +80,10 @@ html {
   width: 12px;
 }
 
+.fa {
+  color: #e0a965;
+}
+
 /* CUSTOM SCROLLBAR */
 
 /* ::-webkit-scrollbar-track {
