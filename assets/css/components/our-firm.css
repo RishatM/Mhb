@@ -1,0 +1,58 @@
+.ourFirmContainer {
+  background-color: #1a243d;
+  padding: 6rem 0px;
+}
+
+.our-firm-left-side{
+  padding-right: 45px;
+  margin-bottom: 45px;
+}
+
+.our-firm-title {
+  margin: 0;
+  font-size: 37px;
+  color: white;
+  font-weight: bold;
+}
+
+.our-firm-subtitle {
+  margin: 0;
+  color: #e6e2e2;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: bold;
+  border-left: 3px solid #e2a33e;
+  padding-left: 25px;
+  margin-top: 25px;
+}
+
+.our-firm-box {
+  display: flex;
+  min-height: 180px;
+  margin-bottom: 25px;
+}
+.our-firm-box p {
+    margin: 0;
+    color: #e6e2e2;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+}
+.our-firm-box-title {
+  margin: 0;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.icon-container{
+  width: 30px; 
+  margin-right: 10px;
+}
+.icon-container i {
+  color: #e0a965;
+  max-width: 100%;
+  padding-right: 25px;
+  font-size: 25px;
+}
+

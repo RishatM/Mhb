@@ -1,0 +1,238 @@
+.contact-one {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.contact-one .block-title__text-two {
+  color: #aaaaaa;
+  font-size: 16px;
+}
+.contact-one .block-title__text-two:after {
+  display: none;
+}
+.contact-one .case-form-one__field textarea {
+  height: 115px;
+}
+.contact-one__form {
+  margin-bottom: 50px;
+}
+.contact-one__info {
+  margin-bottom: 50px;
+}
+.contact-one__info .block-title__text-two {
+  font-size: 14px;
+  line-height: 24px;
+  color: #666666;
+  font-style: normal;
+  font-weight: 300;
+}
+.contact-one__info-single + .contact-one__info-single {
+  margin-top: 30px;
+}
+.contact-one__info-title {
+  margin: 0;
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #333333;
+  margin-bottom: 10px;
+}
+.contact-one__info-text {
+  margin: 0;
+  font-size: 16px;
+  line-height: 26px;
+  color: #666666;
+  letter-spacing: 0.025em;
+}
+.contact-one__info-text strong {
+  margin-left: 10px;
+}
+.contact-one__info-text a {
+  color: inherit;
+}
+.contact-one__info-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.contact-one__info-social a {
+  font-size: 20px;
+  color: #666666;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.contact-one__info-social a:hover {
+  color: #e0a965;
+}
+.contact-one__info-social a + a {
+  margin-left: 30px;
+}
+@media (min-width: 992px) {
+  .contact-one__form {
+    padding-right: 70px;
+  }
+}
+
+
+/*FORM*/
+.case-form-one .block-title__title {
+  margin: 0;
+  margin-bottom: 10px;
+}
+.case-form-one .block-title__text-one {
+  border-left: 0;
+  padding-left: 0;
+  color: #aaaaaa;
+  margin: 0;
+}
+@media (max-width: 991px) {
+  .case-form-one .block-title__text-one br {
+    display: none;
+  }
+}
+.case-form-one .inner-container {
+  padding-top: 70px;
+  padding-bottom: 80px;
+  padding-left: 100px;
+  padding-right: 100px;
+  position: relative;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.1);
+}
+@media (max-width: 991px) {
+  .case-form-one .inner-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+.case-form-one .inner-container:before {
+  left: 0;
+  -webkit-clip-path: polygon(0 0, 0% 100%, 100% 100%);
+  clip-path: polygon(0 0, 0% 100%, 100% 100%);
+}
+.case-form-one .inner-container:after {
+  right: 0;
+  -webkit-clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+  clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+}
+.case-form-one__field {
+  margin-bottom: 30px;
+  position: relative;
+}
+.case-form-one__field > i {
+  color: #cccccc;
+  font-size: 14px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.case-form-one__field input[type="text"],
+.case-form-one__field textarea {
+  display: block;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  border-bottom: 1px solid #dddddd;
+  width: 100%;
+  height: 46px;
+  color: #666666;
+  font-size: 14px;
+}
+.case-form-one__field input[type="text"]::-webkit-input-placeholder,
+.case-form-one__field textarea::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #666666;
+}
+.case-form-one__field input[type="text"]::-moz-placeholder,
+.case-form-one__field textarea::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #666666;
+}
+.case-form-one__field input[type="text"]:-ms-input-placeholder,
+.case-form-one__field textarea:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #666666;
+}
+.case-form-one__field input[type="text"]:-moz-placeholder,
+.case-form-one__field textarea:-moz-placeholder {
+  /* Firefox 18- */
+  color: #666666;
+}
+.case-form-one__field textarea {
+  padding-left: 0px;
+  height: 100px;
+}
+.case-form-one__field .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+  width: 100%;
+}
+.case-form-one__field .bootstrap-select > .dropdown-toggle {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #dddddd;
+  display: block;
+  width: 100%;
+  height: 46px;
+  padding: 0;
+  background-color: transparent;
+  line-height: 45px;
+  padding-left: 0px;
+  color: #777777;
+  font-size: 14px;
+  color: #666666;
+  border-radius: 0;
+}
+.case-form-one__field .dropdown-toggle::after {
+  border: 0;
+  width: auto;
+  content: "\f107";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: #777777;
+  font-size: 14px;
+  margin-right: 10px;
+}
+.case-form-one__field .dropup .dropdown-toggle::after {
+  content: "\f106";
+}
+.case-form-one__btn {
+  margin-top: 15px;
+}
+
+.block-title {
+  margin-bottom: 50px;
+}
+
+.block-title__text-two {
+  margin: 0;
+  color: #666666;
+  font-size: 16px;
+  font-weight: 700;
+  font-style: italic;
+  position: relative;
+  display: inline-block;
+  margin-top: 10px;
+}
+.block-title__text-two:after {
+  content: "";
+  width: 50px;
+  height: 1px;
+  display: block;
+  background-image: url(../images/resources/pattern-1-2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.block-title.text-center .block-title__text-two:after {
+  margin-left: auto;
+  margin-right: auto;
+}

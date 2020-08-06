@@ -1,0 +1,33 @@
+.MHBAdvisorsPic {
+  height: auto;
+  max-width: 100%;
+  margin-top: 4.4em;
+}
+
+.about {
+  padding: 70px 0px 70px 0px;
+  display: block;
+}
+
+.about-title {
+  margin: 0;
+  font-size: 37px;
+  color: #333333;
+  font-weight: bold;
+}
+.about p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 24px;
+}
+.about-image{
+  margin-top: 10px;
+}
+  @media (max-width: 375px) {
+    .MHBAdvisorsPic{
+      margin: 15px 0px 15px 0px;
+    }
+    .about{
+      padding: 30px 0px 30px 0px;
+    }
+  }

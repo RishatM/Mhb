@@ -574,21 +574,4 @@
     padding-right: 0px;
   }
 }
-@media (max-width: 375px) {
-  .testimonials-two__single {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-  }
 
-  .testimonials-two__icon {
-    margin-bottom: 40px;
-  }
-}

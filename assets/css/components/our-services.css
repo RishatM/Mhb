@@ -1,0 +1,121 @@
+.fact-one {
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+
+.fact-one .block-title {
+  margin-bottom: 0;
+}
+.fact-one__list {
+  margin: 0;
+  margin-top: 20px;
+}
+.fact-one__list-content i {
+  padding-right: 7px;
+}
+.fact-one__list li {
+  position: relative;
+  padding-left: 1em;
+  padding-right: 5em;
+}
+.fact-one__list li:hover {
+  background-color: #26355a;
+}
+.fact-one__list li:hover i,
+.fact-one__list li:hover h3,
+.fact-one__list li:hover p {
+  color: #fff;
+}
+.fact-one__list li > i {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  color: #1a243d;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.fact-one__list li h3 {
+  display: inline-block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  color: #333333;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.fact-one__list--left {
+  margin: 0;
+  margin-top: 20px;
+}
+.fact-one__list--left li:hover {
+  background-color: #26355a;
+}
+.fact-one__list--left li {
+  position: relative;
+  padding-left: 0.5em;
+  padding-right: 2em;
+}
+.fact-one__list--left li:hover h3,
+.fact-one__list--left li:hover p {
+  color: #fff;
+}
+.fact-one__list--left li > i {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  color: #1a243d;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.fact-one__list--left li h3 {
+  display: inline-block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  color: #333333;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.services-container {
+  position: relative;
+  overflow: hidden;
+  background-image: url("../../images/background/new-conference.png");
+  background-position: center;
+  background-repeat: none;
+  background-size: 100%;
+}
+
+.our-services-subtitle {
+  margin: 0;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  line-height: 1.6em;
+  font-style: italic;
+  font-weight: bold;
+  border-left: 3px solid #e0a965;
+  padding-left: 25px;
+  margin-top: 25px;
+  max-width: 35em;
+}
+.services-title {
+  margin: 0;
+  font-size: 37px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+.services-one__block-title {
+  margin: 0;
+  background-color: #1a243d;
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 45px;
+  padding: 10px;
+}
