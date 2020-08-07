@@ -1,6 +1,7 @@
 .ourFirmContainer {
   background-color: #1a243d;
   padding: 6rem 0px;
+  padding-top: 100px; /*forces padding-top for Our Firm link to correctly display*/
 }
 
 .our-firm-left-side{
