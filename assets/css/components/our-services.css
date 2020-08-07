@@ -15,11 +15,13 @@
 }
 .fact-one__list li {
   position: relative;
+  padding-top: 2em;
+  padding-bottom: 2em;
   padding-left: 1em;
   padding-right: 5em;
 }
 .fact-one__list li:hover {
-  background-color: #26355a;
+  background-color: #1a243d;
 }
 .fact-one__list li:hover h3,
 .fact-one__list li:hover p {
@@ -54,10 +56,12 @@
   margin-right: 15px;
 }
 .fact-one__list--left li:hover {
-  background-color: #26355a;
+  background-color: #1a243d;
 }
 .fact-one__list--left li {
   position: relative;
+  padding-top: 2em;
+  padding-bottom: 2em;
   padding-left: 0.5em;
   padding-right: 2em;
 }

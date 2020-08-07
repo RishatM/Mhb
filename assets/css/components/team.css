@@ -31,7 +31,7 @@ a:focus {
   border-left: 3px solid #e0a965;
   padding-left: 25px;
   margin-top: 25px;
-  max-width: 35em;
+  max-width: 50em;
 }
 @media (max-width: 480px) {
   .team-one .block-title br {
